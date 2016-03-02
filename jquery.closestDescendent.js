@@ -1,7 +1,7 @@
 // Like jQuery .closest() function but traversing descendants.
 
 (function($) {
-  $.fn.closest_descendent = function(filter) {
+  $.fn.closestDescendent = function(filter) {
     var $found = $(),
         $currentSet = this; // Current place
     while ($currentSet.length) {
